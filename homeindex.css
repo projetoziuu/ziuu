@@ -1,0 +1,285 @@
+body {
+    max-width: 390px;
+    background-color: #4198BE;
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+.h-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    background-color: white;
+    border-radius: 12px;
+    align-items: center;
+}
+#menu {
+    align-items: center;
+    height: 20px;
+}
+
+#logo-ziuu {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.perfil{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+    background-color: white;
+    border-radius: 12px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#perfil{
+    align-items: stretch;
+    height: 25px;
+}
+
+.fundo-branco{
+    background-color: #E7E7E7;
+    width: 390px;
+    height: 1900px;
+    margin-top: 40px;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0%;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrosel {
+    margin-top: 20px;
+    width: 341px;
+    height: 190px;
+    background-color: palegreen;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+#img-carrossel {
+    height: 190px;
+}
+
+.pesquisa {
+    width: 340px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgb(229, 229, 229);
+    background-color: white;
+    align-items: center;
+    
+}
+
+#barra {
+    width: 290px;
+    height: 44px;
+    border-radius: 30px;
+    border: 0px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+#lupa {
+    margin: 0%;
+    height: 25px;
+}
+
+
+#destaque {
+    margin-top: 50px;
+    margin-right: 220px;
+}
+
+.postagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#txtp1 {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+.postagem1 {
+    width: 162px;
+    height: 207px;
+    background-color: #BCBCBC;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-image: url(img/piano.jpeg);
+    background-size: 165px;
+}
+
+.postagem2 {
+    width: 162px;
+    height: 207px;
+    background-color: #BCBCBC;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-image: url(img/quadro.jpeg);
+    background-size: 165px;
+}
+
+
+.postagem3 {
+    width: 162px;
+    height: 207px;
+    background-color: #BCBCBC;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-image: url(img/filme.jpeg);
+    background-size: 165px;
+}
+
+
+.postagem4 {
+    width: 162px;
+    height: 207px;
+    background-color: #BCBCBC;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-image: url(img/danca.jpeg);
+    background-size: 165px;
+}
+
+
+.base-postagem {
+    height: 62px;
+    margin-top: 145px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: small;
+    padding-top: 10px;
+    
+}
+
+#coracao {
+    height: 25px;
+    margin-left: 125px;
+}
+
+.ver-mais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.linha {
+    width: 200px;
+    background-color: black;
+}
+
+#arrow {
+    height: 29px;
+}
+
+#comunidade{
+    margin-left: 25px;
+}
+
+.comunidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4198BE;
+    width: 391px;
+    height: 450px;
+}
+
+.as-comunidade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    width: 341px;
+    height: 69px;
+    border-radius: 10px;
+}
+
+#icon {
+    margin-left: 15px;
+    height: 40px;
+}
+
+#entrar {
+    margin-right: 15px;
+    width: 73px;
+    height: 37px;
+    background-color: #4198BE;
+    border: 0px;
+    border-radius: 12px;
+}
+
+.proxima-aba {
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 138px;
+    height: 54px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: white;
+    color: #4198BE;
+}
+
+#linha-2 {
+    margin-top: 50px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#email {
+    margin-left: 10px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+.telefone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 25px;
+    color: #4198BE;
+    margin-top: 15px;
+}
+
+#telefone {
+    margin-left: 10px;
+    height: 25px;
+    margin-right: 10px;
+}
